@@ -9,8 +9,8 @@
  * struct listint_s - Doubly linked list node
  *
  * @n: Integer stored in the node
- * @prev: Pointer to the previous element
- * @next: Pointer to the next element
+ * @prev: Pointer to previous node
+ * @next: Pointer to next node
  */
 typedef struct listint_s
 {
