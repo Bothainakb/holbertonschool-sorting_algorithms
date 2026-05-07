@@ -5,13 +5,6 @@
 
 #include <stddef.h>
 
-/**
- * struct listint_s - Doubly linked list node
- *
- * @n: Integer stored in the node
- * @prev: Pointer to previous node
- * @next: Pointer to next node
- */
 typedef struct listint_s
 {
 	const int n;
@@ -24,4 +17,4 @@ void print_list(const listint_t *list);
 
 void bubble_sort(int *array, size_t size);
 
-#endif /* SORT_H */
+#endif
